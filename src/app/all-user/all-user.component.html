@@ -1,0 +1,15 @@
+<table border="3" width="100%">
+    <tr style="border-bottom: 2px solid;">
+        <th style="border-right: 1px solid;">User ID</th>
+        <th style="border-right: 1px solid;">User Name</th>
+        <th>Password</th>
+    </tr>
+    <tr *ngFor="let i of userList">
+        <td style="border-right: 1px solid;">{{i.id}}</td>
+        <td style="border-right: 1px solid;">{{i.username}}</td>
+        <td>{{i.password}}</td>
+        <td><button class="btn btn-warning" [routerLink]="'/edituser/'+i.id">Edit</button></td>
+        <td><button class="btn btn-danger" [routerLink]="'/deleteuser/'+i.id">Delete</button></td>
+    </tr>
+</table>
+<!-- <button (click)="getAll()"></button> -->

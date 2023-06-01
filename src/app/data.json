@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "pwd1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "pwd2"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "pwd3"
+    },
+    {
+      "username": "user4Hero",
+      "password": "pwd4",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "username": "Hassan",
+      "password": "Mashmoom"
+    },
+    {
+      "id": 6,
+      "username": "Citius",
+      "password": "Tech"
+    },
+    {
+      "username": "Sample",
+      "password": "Checking",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "username": "manoj kk",
+      "password": "jonam"
+    }
+  ]
+}

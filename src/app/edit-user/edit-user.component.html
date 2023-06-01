@@ -1,0 +1,6 @@
+<!-- <p>Enter userID: <input type="number" [(ngModel)]="id" min="1" (change)="getUserdetail()" [max]="maxId"></p> -->
+<p>Enter userID: <input type="number" [(ngModel)]="id" disabled></p>
+<p>Enter username: <input type="text" [(ngModel)]="user" [disabled]="errorUser"></p>
+<p>Enter password: <input type="text" [(ngModel)]="pass" [disabled]="errorUser"></p>
+<button class="btn btn-warning" (click)="updateUser()">Update user</button> &nbsp; &nbsp;
+<button class="btn btn-primary" (click)="cancelUser()">Cancel</button>
