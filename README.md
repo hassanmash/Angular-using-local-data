@@ -31,6 +31,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. install json-server (quick and easy way to create API), use command:  `npm install --save json-server`
 2. Create a .json file anywhere in the application and put some sample JSON data inside it. In this case you will find `data.json` in app folder
 3. Start json server from cmd
-            `node_modules\.bin\json-server data.json`
+            `node_modules\.bin\json-server src/app/data.json`
 
 This starts up at port 3000 and reads resource name from file and hosts it as RESTful
